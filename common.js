@@ -16,10 +16,7 @@ function removeBackroundColor(colorId) {
   const colorValue = document.getElementById(colorId);
   colorValue.classList.remove("bg-red-400");
 }
-function removeBackroundColor1(colorId) {
-  const colorValue = document.getElementById(colorId);
-  colorValue.style.background = "black";
-}
+
 
 function getSetTextElementValue(element) {
   const elementText = document.getElementById(element);

@@ -26,25 +26,25 @@ function handlerKeyButton(event) {
     const currentLife = lifeButton - 1;
     setElementByIdText("life-btn", currentLife);
     if (currentLife === 0) {
-      overGame();
+      overGame(currentSocre);
     }
   }
 }
 
 document.addEventListener("keyup", handlerKeyButton);
 
-function overGame() {
+function overGame(alphabate) {
+  removeBackroundColor(alphabate.toLowerCase());
   hiddenElementId("play-ground");
   showElementId("score");
   const totalScore = getSetTextElementValue("score-btn");
   setElementByIdText("total-Score", totalScore);
-
-  // const alphabet = randomAlphabet();
+""
+  const alphabet = randomAlphabet();
   // console.log(alphabet);
   // removeBackroundColor1(alphabet);
 
   // const alphabet = document.getElementById("current-Text");
-  // removeBackroundColor(alphabet);
 }
 /* document.querySelectorAll(".kbd").forEach((node) => {
   node.addEventListener("Keyup", function () {

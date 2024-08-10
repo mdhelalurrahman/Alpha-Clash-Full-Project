@@ -9,17 +9,20 @@
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
       rel="stylesheet"
-      type="text/css" />
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Custom Css -->
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <main
-      class="min-h-screen bg-[url(images/background.png)] bg-no-repeat bg-center">
+      class="min-h-screen bg-[url(images/background.png)] bg-no-repeat bg-center"
+    >
       <section
         id="home-screen"
-        class="flex min-h-screen justify-center items-center">
+        class="flex min-h-screen justify-center items-center"
+      >
         <div class="flex flex-col items-center gap-10">
           <h1 class="text-8xl anton-font">ALPHABET CLASH</h1>
           <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
@@ -33,7 +36,8 @@
       <section id="play-ground" class="hidden">
         <div class="flex flex-col items-center gap-8 pt-20">
           <div
-            class="artboard artboard-horizontal phone-6 border-[20px] border-[#dfbef8] bg-[#4f0c0cb3]">
+            class="artboard artboard-horizontal phone-6 border-[20px] border-[#dfbef8] bg-[#4f0c0cb3]"
+          >
             <div class="flex justify-center">
               <p class="bg-[#2F2941] px-6 pb-4 rounded-b-xl">
                 Don't Watch Keyboard While Playing
@@ -84,13 +88,15 @@
           </div>
           <div class="flex justify-between w-3/5">
             <button
-              class="btn rounded-full px-6 bg-orange-500 text-white text-[20px]">
+              class="btn rounded-full px-6 bg-orange-500 text-white text-[20px]"
+            >
               Life
               <img src="./Group 23.png" alt="" />
               <span id="life-btn">5</span>
             </button>
             <button
-              class="btn bg-orange-400 rounded-full px-6 text-2xl text-white">
+              class="btn bg-orange-400 rounded-full px-6 text-2xl text-white"
+            >
               Score
               <img src="./monetization_on.png" alt="" />
               <span id="score-btn">0</span>
@@ -100,14 +106,17 @@
       </section>
       <section
         id="score"
-        class="flex flex-col items-center justify-center min-h-screen hidden">
+        class="flex flex-col items-center justify-center min-h-screen hidden"
+      >
         <div
-          class="bg-[#FFFFFF33] p-4 text-center space-y-4 rounded-lg text-white text-2xl">
+          class="bg-[#FFFFFF33] p-4 text-center space-y-4 rounded-lg text-white text-2xl"
+        >
           <p>Gave Over!</p>
           <h1 class="text-6xl" id="total-Score">Score:14</h1>
           <button
             class="btn bg-orange-300 rounded-md px-4 text-2xl text-white"
-            onclick="play()">
+            onclick="play()"
+          >
             Play Again
           </button>
           <p>Practice will make you Pro</p>
